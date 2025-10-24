@@ -20,7 +20,6 @@ The dataset and analysis presented here capture one year of simulated phishing a
 This repository provides:
 
 * **Templates:** The full set of **31 phishing email templates** annotated with emotional and contextual cues (e.g., fear, curiosity, altruism, greed, personalization, authority, urgency).
-* **Paper:** The complete research article in LaTeX format.
 
 The study was conducted entirely within a legitimate corporate awareness program, under GDPR-compliant ethical standards.
 
