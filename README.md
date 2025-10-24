@@ -9,7 +9,7 @@
 
 A comprehensive open-science dataset and analytical framework for studying phishing susceptibility in real corporate environments. This repository accompanies the paper:
 
-> **Tóth et al. (2025). Understanding Emotional and Contextual Cues in Corporate Phishing Susceptibility: A Longitudinal Field Study.**
+> **(2025). Understanding Emotional and Contextual Cues in Corporate Phishing Susceptibility: A Longitudinal Field Study.**
 
 The dataset and analysis presented here capture one year of simulated phishing activity across over 1,300 employees and 20 subsidiaries of a European holding company. The study investigates how emotional manipulation, contextual framing, and training interventions influence real-world employee behavior.
 
@@ -19,9 +19,7 @@ The dataset and analysis presented here capture one year of simulated phishing a
 
 This repository provides:
 
-* **Dataset:** Anonymized results from over **13,000 simulated phishing emails**.
 * **Templates:** The full set of **31 phishing email templates** annotated with emotional and contextual cues (e.g., fear, curiosity, altruism, greed, personalization, authority, urgency).
-* **Code:** Python scripts for statistical analysis, visualization, and reproducibility of results.
 * **Paper:** The complete research article in LaTeX format.
 
 The study was conducted entirely within a legitimate corporate awareness program, under GDPR-compliant ethical standards.
@@ -91,19 +89,6 @@ The study was conducted using a structured, six-phase phishing simulation framew
    Combining multiple cues (e.g., internal + altruism + personalization) increased success probability up to **3.7×** compared to neutral messages.
 
 
-
-## Citation
-
-If you use this dataset or code in your research, please cite:
-
-```bibtex
-@article{toth2025corporatephishing,
-  title={Understanding Emotional and Contextual Cues in Corporate Phishing Susceptibility: A Longitudinal Field Study},
-  author={T{\'o}th, R. and others},
-  year={2025},
-  journal={}
-}
-```
 
 
 
