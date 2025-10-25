@@ -1,3 +1,4 @@
+
 # Corporate Phishing Study
 
 <p align="center">
@@ -7,12 +8,9 @@
 <h1 align="center">Corporate Phishing Study</h1>
 
 
-A comprehensive open-science dataset and analytical framework for studying phishing susceptibility in real corporate environments. This repository accompanies the paper:
-
-> **(2025). Understanding Emotional and Contextual Cues in Corporate Phishing Susceptibility: A Longitudinal Field Study.**
+A comprehensive open-science dataset and analytical framework for studying phishing susceptibility in real corporate environments.
 
 The dataset and analysis presented here capture one year of simulated phishing activity across over 1,300 employees and 20 subsidiaries of a European holding company. The study investigates how emotional manipulation, contextual framing, and training interventions influence real-world employee behavior.
-
 
 
 ## Overview
@@ -20,8 +18,10 @@ The dataset and analysis presented here capture one year of simulated phishing a
 This repository provides:
 
 * **Templates:** The full set of **31 phishing email templates** annotated with emotional and contextual cues (e.g., fear, curiosity, altruism, greed, personalization, authority, urgency).
+* **Code:** Python scripts for statistical analysis, visualization, and reproducibility of results [statistics.ipynb](./statistics.ipynb).
+* **Results:** An overview of our results in running over 13,000 phishing emails to 20 companies for 12 months.
 
-The study was conducted entirely within a legitimate corporate awareness program, under GDPR-compliant ethical standards.
+The study was conducted entirely within a corporate awareness program, under GDPR-compliant standards.
 
 
 
@@ -62,7 +62,7 @@ The study was conducted using a structured, six-phase phishing simulation framew
 </p>
 
 1. **Training Effect Over Time**  
-   Phishing susceptibility declined from **8.5% to 4.2%** over 12 months — nearly halving unsafe actions within six months.  
+   Phishing susceptibility declined from **8.5% to 4.2%** over 12 months — halving unsafe actions within six months.  
    The lowest failure rate (2.8%) occurred during the summer vacation period, reflecting reduced activity.  
    By the final quarter, results stabilized around the **industry average of 4.1%**, confirming a strong long-term training effect.
 
@@ -73,8 +73,8 @@ The study was conducted using a structured, six-phase phishing simulation framew
 </p>
 
 2. **Distribution of Unsafe Actions**  
-   Around **64.5% of participants never clicked**, while **23% failed once** and only **0.2%** failed more than six times.  
-   Most employees who failed once did not repeat unsafe behavior, indicating **rapid behavioral improvement** after feedback.
+   Around **64.5% of participants never clicked**, while **23% failed once** and only **0.2%** failed 6+ times.  
+   Around 70% of people who failed a test did not repeat unsafe behavior, indicating **rapid behavioral improvement** after feedback.
 
 ---
 
@@ -83,13 +83,6 @@ The study was conducted using a structured, six-phase phishing simulation framew
 </p>
 
 3. **Effect of Emotional and Contextual Cues**  
-   *Altruistic*, *internal-source*, and *personalized* phishing emails produced the highest response rates.  
-   Traditional cues like *urgency* and *authority* showed little or no effect, suggesting **user habituation**.  
+   *Altruistic*, *internal-source*, and *personalized* phishing emails produced the highest response rates.
    Combining multiple cues (e.g., internal + altruism + personalization) increased success probability up to **3.7×** compared to neutral messages.
-
-
-
-
-
-
 
