@@ -1,0 +1,407 @@
+[
+  {
+    "topic": "New Scanned Document from Office Printer",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>{{company_name}} Printer</p><p>You received a new scanned document from your office printer.</p><ul><li><strong>File Name:</strong> {{file_name}}</li><li><strong>Pages:</strong> {{page_count}}</li><li><strong>Message:</strong> FYI; please see attached copy for your confirmation.</li></ul><p><a href='{{link}}' style='color:#1a73e8;'>Download Document</a></p><p>This document was securely scanned to you from the {{company_name}} e-Scanner.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Welcome to your Corporate Card Account",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Dear {{first_name}},</p><p>We’re pleased to provide you and {{company_name}} with managed corporate account solutions.</p><p>To register for your online Corporate Card Account, follow the steps below:</p><ol><li>Visit <a href='{{link}}'>{{link}}</a></li><li>Enter your organization’s ID: {{organization_id}}</li><li>Enter your date of birth (MM/DD/YY)</li><li>Enter your cellphone number for authentication</li><li>Enter your user ID (your work email)</li><li>Enter the password associated with your email</li><li>Click <strong>Sign in</strong> and follow the instructions to change your password and register</li></ol><p>For assistance, click <strong>Live Help</strong> at the bottom of the page.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Unusual Sign-in Activity",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Unusual sign-in activity detected</h3><p>We noticed something unusual about a recent sign-in to the account {{email}}.</p><p><strong>Sign-in details</strong></p><ul><li>Country/region: {{country_region}}</li><li>IP address: {{ip_address}}</li><li>Date: {{date_time}}</li><li>Platform: {{platform}}</li><li>Browser: {{browser}}</li></ul><p>Please visit your <a href='{{link}}'>recent activity page</a> to let us know if this was you. If not, we’ll help secure your account.</p><p>Thanks,<br>The {{company_name}} account team</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 0,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "You have 2 new messages in Teams",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Hi {{first_name}} {{last_name}},</p><p>Your teammate is trying to reach you in {{company_name}} Chat.</p><p><a href='{{link}}'>Open Chat</a></p><p>Message preview:<br>Hi {{first_name}}! Please see the report expected to be completed by end of the day today.</p><p><a href='{{reply_link}}'>Reply in Chat</a> | <a href='{{install_link}}'>Install App</a></p><p>This message was sent from an automated system. Update your notification preferences in your settings.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Place your order to receive free company merch!",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Place your order to receive free company merch!</h3><p>Dear {{first_name}},</p><p>{{company_name}} is excited to offer all employees free company merchandise!</p><p>Please visit <a href='{{link}}'>this site</a> before <strong>{{deadline_date}}</strong> to select your items and provide your shipping address.</p><p>Thank you for your hard work!</p><p>– HR Team</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Activate your FREE Learning Account",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Activate your FREE Learning Account</h3><p>{{company_name}} gives you free access to {{learning_platform}}.</p><p>Learn new skills and grow your career with thousands of courses taught by industry experts.</p><p><a href='{{link}}' style='color:#1a73e8;'>Activate your account</a></p><p>Your invite expires {{expiry_date}}.</p><p>This email was sent to {{email}}.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "RE: Quick approve",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Hi {{first_name}},</p><p>Please have a quick look at the document mentioned below by {{sender_first_name}}. Management is waiting for it.</p><p>Best regards,<br>{{sender_first_name}} {{sender_last_name}}<br>{{sender_title}}</p><hr><p>From: {{forwarded_from_name}} &lt;{{forwarded_from_email}}&gt;<br>Sent: {{forwarded_date}}<br>To: {{first_name}} {{last_name}} &lt;{{company_email}}&gt;<br>Subject: Quick approve</p><p>Hello {{sender_first_name}},<br>As discussed, please send the file to {{target_email}}.<br>We need to send it to management today.<br>Thank you,<br>{{forwarded_from_name}}<br>{{forwarded_from_title}}</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "HR Personal Information Update",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>HR Personal Information Update</h3><p>Hi {{first_name}} {{last_name}},</p><p>{{company_name}} requires an update as part of our regular information review.</p><p>Please verify and update your personal information:</p><ul><li>Full Name</li><li>Address</li><li>Emergency Contact</li><li>Bank Details</li></ul><p><a href='{{link}}'>Update Details</a></p><p>Best regards,<br>HR Team</p><p><small>This is an automated message; please do not reply.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Holiday Calendar",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Dear {{first_name}} {{last_name}},</p><p>Following an issue with the employee holiday tracking system, please verify and complete your holiday calendar for this year.</p><p>Failure to do so could result in rescheduling.</p><p><a href='{{link}}'>Open Calendar File</a></p><p>Thank you for your cooperation.</p><p>Best regards,<br>{{sender_first_name}} {{sender_last_name}}<br>{{sender_title}}<br>{{company_name}} HR</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Black Friday Deals",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h2>Black Friday Special Invitation</h2><p>Dear {{first_name}},</p><p>Enjoy exclusive early access to Black Friday discounts from your favorite retailers.</p><p><a href='{{link}}' style='color:#1a73e8;'>Click here to find deals</a></p><p>Save 30–50% on select items before the rush begins!</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Invoice #{{invoice_number}}",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Hi {{email}},</p><p>Your invoice <strong>#{{invoice_number}}</strong> is ready for your review.</p><p>Additional details are attached.</p><p>Thank you for your business!</p><p><small>This email address cannot receive replies.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "File is Pending Approval",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>File Pending Approval</h3><p>Your file is awaiting approval. Please take action below.</p><p><a href='{{link}}' style='color:#1a73e8;'>Take Action</a></p><p>This message is to inform you about important updates to your {{company_name}} account.</p><p><small>© {{year}} {{company_name}} Inc.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 0
+    }
+  }
+[
+  {
+    "topic": "[JIRA] {{first_name}} {{last_name}} mentioned you on project {{project_code}}",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>{{first_name}} {{last_name}} mentioned you on an issue</h3><p>Project: {{project_name}} / {{project_code}}</p><p><a href='{{audit_link}}'>Audit</a></p><p><strong>{{comment_author}}</strong> {{comment_time}}:<br>@{{first_name}}.{{last_name}} Please review.</p><p><a href='{{view_issue_link}}'>View issue</a></p><p>You have free access to Jira Work Management, our project management tool for {{department}} teams.</p><p><a href='{{create_project_link}}'>Create a project</a></p><p><small><a href='{{manage_notifications_link}}'>Manage notifications</a> • <a href='{{feedback_link}}'>Give feedback</a> • <a href='{{privacy_policy_link}}'>Privacy policy</a></small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Policy Breach Detected",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Policy Breach Detected</h3><p><strong>Account suspension imminent</strong></p><p>Hi {{first_name}} {{last_name}},</p><p>We detected unusual activity associated with {{email}}. Using your personal email to access client information violates {{company_name}}’s security policy.</p><p><a href='{{verify_link}}' style='color:#1a73e8;'>Verify Activity</a></p><p>Failure to verify may result in account suspension.</p><p>– Account Security Team</p><p><small>If you are having trouble viewing this email, <a href='{{view_online_link}}'>view it online</a>.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 0,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Job Invitation from Google",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Hi {{first_name}},</p><p>I'm {{sender_first_name}} from the HR team at Google, reaching out because you were recommended by your former colleague. We’d love to explore the possibility of you joining our team!</p><p><strong>Position:</strong> {{position_title}}<br><strong>Location:</strong> {{location}}<br><strong>Employment Type:</strong> {{employment_type}}</p><p>See more details about the role here: <a href='{{link}}'>{{link}}</a></p><p>We’d love to schedule a short call or video chat at your convenience. Let us know what time works best for you.</p><p>Best regards,<br>{{sender_first_name}} {{sender_last_name}}<br>HR Specialist<br>Tel.: {{sender_phone}}</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+[
+  {
+    "topic": "Action Required - Unused Vacation Days Will Expire Without Interaction",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Maximize Your Vacation</h3><p>Dear {{first_name}},</p><p>With the conclusion of this year, we need all employees to decide what to do with unused vacation days. You can either roll them over or be paid for them.</p><p><a href='{{rollover_link}}'>Roll Over Vacation Days</a> &nbsp; | &nbsp; <a href='{{cashout_link}}'>Cash in Vacation Days</a></p><p>If you don’t make a selection today, your unused vacation days will be forfeited.</p><p>Sincerely,<br>{{sender_first_name}} {{sender_last_name}}<br>Human Resources</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 0,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Adobe Enterprise Sync",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Adobe Enterprise Sync</h3><p>You have been enrolled by {{company_name}} to access Adobe Enterprise, including various premium Adobe services.</p><p>Please register using your corporate credentials to sync your account. Synchronization is required immediately so licenses can be allocated properly.</p><p><a href='{{link}}'>Click for more details</a></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Can you assist me with this?",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Hi {{first_name}},</p><p>I’m new here and I’m trying to solve an issue for my manager. He mentioned I could reach out to you for help.</p><p>If you’d like to take a look, here’s the file:<br><a href='{{link}}'>🗀 Process File</a></p><p>I can set up time next week to discuss if needed.</p><p>Thanks!<br>– {{sender_first_name}} {{sender_last_name}}</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "DocumentSignature - New Document",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>{{company_name}} HR Team sent you a document to review and sign.</p><p>Please review and complete <strong>{{file_name}}</strong> within 7 days.</p><p><a href='{{link}}'>Open Document</a></p><p>Thank you,<br>Your HR Team</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 1,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "DHL Shipment Notification",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>DHL Shipment Notification</h3><p>Dear {{first_name}},</p><p>Your shipment is scheduled for delivery.</p><ul><li><strong>AWB Number:</strong> {{awb_number}}</li><li><strong>Pickup Date:</strong> {{pickup_date}}</li><li><strong>Service:</strong> Express</li></ul><p>Attached: Original shipping documents.</p><p>Thank you for shipping with DHL Express.</p><p><small>© DHL International GmbH. All rights reserved.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Halloween Raffle for all employees!",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h2>Halloween Raffle!</h2><p>We’re running a Halloween raffle with amazing prizes including Amazon gift cards and Spotify subscriptions!</p><p><a href='{{link}}'>Enter the Raffle</a></p><p>Entries close on <strong>{{deadline_date}}</strong> and winners will be announced the next day.</p><p>Good luck!</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 0,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Happy Holidays! Enjoy this Gift!",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h2>Happy Holidays!</h2><p>{{company_name}} is excited to offer every employee a $50 gift card.</p><p><a href='{{link}}'>Receive My Gift Card</a></p><p>Enjoy your well-deserved holiday treat!</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 0,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Identity Alert: Your Information Was Found on the Dark Web",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Identity Alert</h3><p>We found dark web activity associated with your identity.</p><p><strong>Email:</strong> {{email}}<br><strong>Password Status:</strong> Exposed<br><strong>Date Found:</strong> {{date}}</p><p><a href='{{link}}'>Take Action Now</a></p><p>Protect your personal information immediately.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Instagram Copyright Infringement Notice",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Action Required: Copyright Infringement Notice</h3><p>Hello {{first_name}},</p><p>Due to a report of copyright infringement, your account may be deleted within 24 hours.</p><p>If you believe this is a mistake, please secure your account and answer security questions.</p><p><a href='{{link}}'>Secure My Account</a></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 0,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "VPN Service Changed",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>VPN Service Provider Changed</h3><p>Dear {{first_name}},</p><p>Our VPN provider has changed. Please confirm your access using the link below.</p><p><a href='{{link}}'>Confirm Access</a></p><p>If you do not confirm within 48 hours, your account will be deactivated.</p><p>– VPN Service Team</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Your Password Has Been Reset",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Password Reset Notification</h3><p>The password for {{email}} was recently reset.</p><p>If you made this change, no further action is needed.</p><p>If not, please <a href='{{link}}'>reset your password now</a> to secure your account.</p><p><small>This is an automated message. Please do not reply.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 1,
+      "curiosity": 0,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Business Proposal",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Confidential Business Proposal</h3><p>Dear {{first_name}},</p><p>I am {{sender_first_name}} {{sender_last_name}}, member of the Independent Committee of Eminent Persons (ICEP), Switzerland. During investigations into dormant bank accounts, I discovered a large sum belonging to a deceased foreign national with no heirs.</p><p>I am seeking a trustworthy partner to help process the claim and share the proceeds.</p><p>Details and verification: <a href='{{link}}'>{{link}}</a></p><p>If interested, please reply with your full name, address, and phone number for documentation.</p><p>Sincerely,<br>{{sender_first_name}} {{sender_last_name}}<br>Independent Committee of Eminent Persons (ICEP)</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 1,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Re:Re: Our {{company_name}} Vacation Plans",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Attached is our {{company_name}} vacation and bonuses plan for the year {{year}}.</p><p>Please review the attached document ({{file_name}}) for details.</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 0,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "{{company_name}} Business Financing Opportunity",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>Dear {{first_name}},</p><p>After reviewing your profile on LinkedIn, we are pleased to inform you that you’ve been shortlisted for project financing in the category of <strong>debt funding</strong>.</p><p>If you are interested in moving forward, please respond to this email to begin the process.</p><p>Sincerely,<br>{{sender_first_name}} {{sender_last_name}}<br>Executive Member ({{organization}})</p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 0
+    }
+  },
+  {
+    "topic": "Item shared with you: {{file_name}}",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><p>{{shared_by}} has shared an item with you:</p><p><strong>{{file_name}}</strong></p><p>{{message}}</p><p><a href='{{link}}'>Open shared item</a></p><p><small>This email grants access without login. Only forward it to trusted contacts.</small></p><p><small>© Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 1,
+      "altruism": 0,
+      "urgency": 1,
+      "authority": 0,
+      "unic": 1
+    }
+  },
+  {
+    "topic": "Daily Summary",
+    "html": "<table width='100%' cellpadding='0' cellspacing='0' style='font-family: Arial, sans-serif; background-color:#f9f9f9; padding:20px;'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' style='background-color:#ffffff; border-radius:8px; padding:30px;'><tr><td style='font-size:16px; color:#333;'><h3>Daily Summary for {{date}}</h3><p>This is the daily summary for your ongoing projects.</p><p>Audit: <a href='{{link}}'>{{audit_name}}</a></p><p><a href='{{login_link}}'>Login</a></p><p><small>If our emails end up in spam, please add our sender address to your safe list.</small></p></td></tr></table></td></tr></table>",
+    "emotion": {
+      "fear": 0,
+      "curiosity": 1,
+      "greed": 0,
+      "altruism": 0,
+      "urgency": 0,
+      "authority": 1,
+      "unic": 0
+    }
+  }
+]
