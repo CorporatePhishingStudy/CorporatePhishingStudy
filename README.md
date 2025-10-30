@@ -17,12 +17,11 @@ The dataset and analysis presented here capture one year of simulated phishing a
 
 This repository provides:
 
-* **Templates:** The full set of **31 phishing email templates** annotated with emotional and contextual cues (e.g., fear, curiosity, altruism, greed, personalization, authority, urgency).
+* **Templates:** The full set of **31 phishing email templates** annotated with emotional and contextual cues (e.g., fear, curiosity, altruism, greed, personalization, authority, urgency) [JSONl](./email_templates.jsonl).
 * **Code:** Python scripts for statistical analysis, visualization, and reproducibility of results [statistics.ipynb](./statistics.ipynb).
 * **Results:** An overview of our results in running over 13,000 phishing emails to 20 companies for 12 months.
 
 The study was conducted entirely within a corporate awareness program, under GDPR-compliant standards.
-
 
 
 ## Abstract
@@ -86,3 +85,16 @@ The study was conducted using a structured, six-phase phishing simulation framew
    *Altruistic*, *internal-source*, and *personalized* phishing emails produced the highest response rates.
    Combining multiple cues (e.g., internal + altruism + personalization) increased success probability up to **3.7×** compared to neutral messages.
 
+## Dataset Format
+
+The dataset of 31 phishing templates is a JSON list file [email_templates.jsonl](./email_templates.jsonl), each line containing one entry in JSON format.
+
+Values:
+- `id`: `int`, sequential identifier of the template
+- `scenario`: `string`, the type of unsafe action embedded in the email (`link`, `attachment`)
+- `title`: `string`, email title, can contain template variables
+- `variables`: `list[string]`, a list of all templates variables in the template's `title` and `content` fields
+- `content`: `string`, the email textual content without HTML styling, can contain template variables
+- `cues`: `map[string, bool]`, map of whether a contextual cue is present in this test
+
+> We recommend utilizing an automated phishing test framework to automate the unique link/attachment generation and email delivery processes.
